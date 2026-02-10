@@ -79,13 +79,13 @@ export async function ServicesSection() {
 						<Icon
 							src="/pasta.png"
 							alt="Disponibilidade"
-							className="w-9 h-9 inline-block relative top-0.5 -right-[4px] ml-2 dark:hidden responsive_icon_services"
+							className="w-9 h-9 inline-block relative bottom-1.25 -right-1 ml-2 dark:hidden responsive_icon_services"
 						/>
 						{/* Ícone Escuro */}
 						<Icon
 							src="/pasta_rose.png"
 							alt="Disponibilidade"
-							className="w-9 h-9 hidden relative top-0.5 -right-[4px] dark:inline-block  ml-2 responsive_icon_services"
+							className="w-9 h-9 hidden relative bottom-1.25 -right-1 dark:inline-block  ml-2 responsive_icon_services"
 						/>
 					</h2>
 					<p className="text-xl text-muted-foreground">

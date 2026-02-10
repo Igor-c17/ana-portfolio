@@ -31,13 +31,13 @@ export async function ContactSection() {
 						<Icon
 							src="/info.png"
 							alt="Disponibilidade"
-							className="w-8 h-8 inline-block relative -bottom-[1.5px] -right-[2px] ml-2 dark:hidden responsive_icon_contact"
+							className="w-8 h-8 inline-block relative bottom-0.75 -right-0.5 ml-2 dark:hidden responsive_icon_contact"
 						/>
 						{/* Ícone Escuro */}
 						<Icon
 							src="/info_rose.png"
 							alt="Disponibilidade"
-							className="w-8 h-8 hidden relative -bottom-[1.5px] -right-[2px] dark:inline-block  ml-2 responsive_icon_contact"
+							className="w-8 h-8 hidden relative bottom-0.75 -right-0.5 dark:inline-block  ml-2 responsive_icon_contact"
 						/>
 					</h2>
 					<p className="text-xl text-muted-foreground">
@@ -62,18 +62,18 @@ export async function ContactSection() {
 											<Icon
 												src="/correspondencia.png"
 												alt="Disponibilidade"
-												className="w-8 h-8 inline-block relative -bottom-[3px] right-[3.02px] ml-2 dark:hidden reponsive_icon"
+												className="w-8 h-8 inline-block relative right1 ml-2 dark:hidden reponsive_icon"
 											/>
 
 											{/* Ícone Escuro */}
 											<Icon
 												src="/correspondencia_rose.png"
 												alt="Disponibilidade"
-												className="w-8 h-8 hidden relative -bottom-[3px] right-[3.02px] dark:inline-block  ml-2 reponsive_icon"
+												className="w-8 h-8 hidden relative right-1 dark:inline-block  ml-2 reponsive_icon"
 											/>
 										</span>
 									</div>
-									<div className="min-w-0 relative -top-[19px]">
+									<div className="min-w-0 relative -top-0.5">
 										<h4 className="font-semibold mb-1 text-sm @md/info:text-base">
 											Email
 										</h4>
@@ -95,18 +95,18 @@ export async function ContactSection() {
 											<Icon
 												src="/telefone.png"
 												alt="Disponibilidade"
-												className="w-7 h-7 inline-block relative -bottom-[4px] right-[3.8px] ml-2 dark:hidden reponsive_icon"
+												className="w-7 h-7 inline-block relative right-1 ml-2 dark:hidden reponsive_icon"
 											/>
 
 											{/* Ícone Escuro */}
 											<Icon
 												src="/telefone_rose.png"
 												alt="Disponibilidade"
-												className="w-7 h-7 hidden relative -bottom-[4px] right-[3.8px] dark:inline-block  ml-2 reponsive_icon"
+												className="w-7 h-7 hidden relative bottom-0.25 right-1 dark:inline-block  ml-2 reponsive_icon"
 											/>
 										</span>
 									</div>
-									<div className="min-w-0 relative -top-[19px]">
+									<div className="min-w-0 relative -top-0.5">
 										<h4 className="font-semibold mb-0 text-sm @md/info:text-base">
 											Telefone
 										</h4>

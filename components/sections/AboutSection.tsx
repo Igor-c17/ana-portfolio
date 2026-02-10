@@ -32,13 +32,13 @@ export async function AboutSection() {
 						<Icon
 							src="/flor-de-lotus.png"
 							alt="Disponibilidade"
-							className="w-8 h-8 inline-block relative -right-[2px] top-0.3 ml-2 dark:hidden responsive_icon"
+							className="w-8 h-8 inline-block relative -right-[2px] -top-[1.9px] ml-2 dark:hidden responsive_icon"
 						/>
 						{/* Ícone Escuro */}
 						<Icon
 							src="/flor-de-lotus-rose.png"
 							alt="Disponibilidade"
-							className="w-8 h-8 hidden relative -right-[2px] top-0.3 dark:inline-block  ml-2 responsive_icon"
+							className="w-8 h-8 hidden relative -right-[2px] -top-[1.9px] dark:inline-block  ml-2 responsive_icon"
 						/>
 					</h2>
 					<p className="text-xl text-muted-foreground">Conheça-me melhor</p>

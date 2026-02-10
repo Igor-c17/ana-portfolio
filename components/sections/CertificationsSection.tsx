@@ -56,13 +56,13 @@ export async function CertificationsSection() {
 						<Icon
 							src="/faculdade.png"
 							alt="Disponibilidade"
-							className="w-9 h-9 inline-block relative -bottom-[7px] -right-[4px] ml-2 dark:hidden responsive_icon_certification"
+							className="w-8.5 h-8.5 inline-block relative -bottom-0.5 -right-1 ml-2 dark:hidden responsive_icon_certification"
 						/>
 						{/* Ícone Escuro */}
 						<Icon
 							src="/faculdade_rose.png"
 							alt="Disponibilidade"
-							className="w-9 h-9 hidden relative -bottom-[7px] -right-[4px] dark:inline-block  ml-2 responsive_icon_certification"
+							className="w-8.5 h-8.5 hidden relative -bottom-0.5 -right-1 dark:inline-block  ml-2 responsive_icon_certification"
 						/>
 					</h2>
 					<p className="text-xl text-muted-foreground">

@@ -65,13 +65,13 @@ export async function EducationSection() {
 						<Icon
 							src="/mortarboard.png"
 							alt="Disponibilidade"
-							className="w-10 h-10 inline-block relative -right-[3px] -bottom-[11px] ml-2 dark:hidden responsive_icon_education"
+							className="w-10 h-10 inline-block relative -bottom-1 ml-2 dark:hidden responsive_icon_education"
 						/>
 						{/* Ícone Escuro */}
 						<Icon
 							src="/mortarboard_rose.png"
 							alt="Disponibilidade"
-							className="w-10 h-10 hidden relative -right-[3px] -bottom-[11px] dark:inline-block  ml-2 responsive_icon_education"
+							className="w-10 h-10 hidden relative -bottom-1 dark:inline-block  ml-2 responsive_icon_education"
 						/>
 					</h2>
 					<p className="text-xl text-muted-foreground">

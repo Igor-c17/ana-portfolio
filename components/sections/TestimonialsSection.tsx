@@ -49,12 +49,12 @@ export async function TestimonialsSection() {
 						<Icon
 							src="/analise.png"
 							alt="Disponibilidade"
-							className="w-8 h-8 inline-block relative -right-[3px] top-1.5 ml-2 dark:hidden responsive_icon_testmonial"
+							className="w-8 h-8 inline-block relative -right-[3px] top-px ml-2 dark:hidden responsive_icon_testmonial"
 						/>
 						<Icon
 							src="/analise_rose.png"
 							alt="Disponibilidade"
-							className="w-9 h-9 hidden relative -right-[3px] top-1.5 dark:inline-block ml-2 responsive_icon_testmonial"
+							className="w-9 h-9 hidden relative -right-[3px] top-px dark:inline-block ml-2 responsive_icon_testmonial"
 						/>
 					</h2>
 					<p className="text-xl text-muted-foreground">

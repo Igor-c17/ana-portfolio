@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Geist:wght@100..900&display=swap");
-@reference "tailwindcss";
+@import "tailwindcss";
 @custom-variant dark (&:is(.dark *));
 
 /* ========================
    Tailwind Base Imports
 ======================== */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -400,26 +400,12 @@ body {
    Media Querry all
 ======================== */
 
-@media (max-width: 1250px) {
-	#contact > section > div > div {
-		position: relative;
-		right: 1.5rem;
-	}
-}
-
-@media (max-width: 640px) {
-	#contact > section > div > div {
-		position: relative;
-		right: 0.8rem!important;
-	}
-}
-
 @media (max-width: 490px) {
 	#name,
 	#email,
 	#subject,
 	#message {
-		width: 95%;
+		width: 100%;
 	}
 }
 
@@ -431,7 +417,7 @@ body {
 		> div.\@container\/form.bg-card.border.rounded-lg.p-4.\@md\/form\:p-6
 		> form
 		> button {
-		width: 102.5%;
+		width: 100%;
 	}
 }
 
@@ -440,7 +426,7 @@ body {
 	#email,
 	#subject,
 	#message {
-		width: 95%;
+		width: 100%;
 	}
 }
 
@@ -449,7 +435,7 @@ body {
 	#email,
 	#subject,
 	#message {
-		width: 95%;
+		width: 100%;
 	}
 }
 
@@ -458,42 +444,45 @@ body {
 	#email,
 	#subject,
 	#message {
-		width: 95%;
+		width: 100%;
 	}
 }
 
 @media (max-width: 768px) {
 	.responsive_icon {
-		width: 26.5;
-		height: 26.5;
-		top: 1px;
-		right: 0.5px;
+		width: 26;
+		height: 26;
+		right: 0.8px;
 		position: relative;
+		bottom: 0.85px;
 	}
 	.responsive_icon_testmonial {
-		width: 31.5px;
-		height: 31.5px;
+		width: 30px;
+		height: 30px;
 		right: 0.5px;
+		top: 0.3px;
 	}
 	.responsive_icon_education {
-		width: 34px;
-		height: 34px;
+		width: 30px;
+		height: 30px;
 		right: 0.5px;
 	}
 	.responsive_icon_certification {
-		width: 30px;
-		height: 30px;
+		width: 27.5px;
+		height: 27.5px;
 		right: 0.1px;
 	}
 	.responsive_icon_services {
-		width: 30px;
-		height: 30px;
+		width: 28px;
+		height: 28px;
+
+		bottom:2.5px;
 		right: 0.1px;
 	}
 	.responsive_icon_contact {
-		width: 26px;
-		height: 26px;
+		width: 24px;
+		height: 24px;
 		right: 1px;
-		top: 1px;
+		bottom: 1.5px;
 	}
 }
