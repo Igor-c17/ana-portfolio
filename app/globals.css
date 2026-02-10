@@ -396,6 +396,18 @@ body {
 		background-color 0.2s ease;
 }
 
+#home > div.relative.z-10.container.mx-auto.max-w-6xl > div > div > div > span > span:nth-child(1) {
+	font-size: 38px;
+}
+
+#name,
+	#email,
+	#subject,
+	#message {
+		width: 100%;
+	}
+
+
 /* ========================
    Media Querry all
 ======================== */
@@ -486,3 +498,16 @@ body {
 		bottom: 1.5px;
 	}
 }
+
+@media (max-height: 900px) {
+  #about {
+	padding-top: 150px;
+  }
+}
+
+@media (max-width: 992px) {
+	#home > div.relative.z-10.container.mx-auto.max-w-6xl > div > div > div > h1 {
+		font-size: 48px;
+	}
+}
+	

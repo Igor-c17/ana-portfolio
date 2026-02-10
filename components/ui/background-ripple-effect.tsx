@@ -88,12 +88,16 @@ export const BackgroundRippleEffect = ({
 
 	return (
 		<div
-			className={cn(
-				"absolute inset-0 h-full w-full",
-				"[--cell-border-color:var(--color-neutral-300)] [--cell-fill-color:var(--color-neutral-100)] [--cell-shadow-color:var(--color-neutral-500)]",
-				"dark:[--cell-border-color:var(--color-neutral-700)] dark:[--cell-fill-color:var(--color-neutral-900)] dark:[--cell-shadow-color:var(--color-neutral-800)]",
-			)}
-		>
+  className={cn(
+    "absolute inset-0 h-full w-full",
+
+    // 🌞 Tema claro
+    "[--ripple-border:#5BC99E] [--ripple-bg:rgba(91,201,158,0.15)] [--ripple-shadow:rgba(91,201,158,0.35)]",
+
+    // 🌙 Tema escuro
+    "dark:[--ripple-border:#893E70] dark:[--ripple-bg:rgba(137,62,112,0.18)] dark:[--ripple-shadow:rgba(137,62,112,0.45)]",
+  )}
+>
 			<div className="relative h-auto w-auto overflow-hidden">
 				<div className="pointer-events-none absolute inset-0 z-[2] h-full w-full overflow-hidden" />
 
@@ -103,8 +107,8 @@ export const BackgroundRippleEffect = ({
 					rows={rows}
 					cols={cols}
 					cellSize={cellSize}
-					borderColor="var(--cell-border-color)"
-					fillColor="var(--cell-fill-color)"
+					borderColor="var(--ripple-border)"
+  					fillColor="var(--ripple-bg)"
 					clickedCell={clickedCell}
 					centerCell={centerCell}
 					popHeight={popHeight}
