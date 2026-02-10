@@ -1,0 +1,35 @@
+"linter": {
+  "enabled": true,
+  "rules": {
+    "recommended": true,
+    "suspicious": {
+      "noUnknownAtRules": "off",
+      "noArrayIndexKey": "off",
+      "noExplicitAny": "off"
+    },
+    "style": {
+      "noDescendingSpecificity": "off"
+    },
+    "performance": {
+      "noImgElement": "off"
+    },
+    "correctness": {
+      "useExhaustiveDependencies": "off",
+      "noUnusedFunctionParameters": "off"
+    },
+    "a11y": {
+      "useButtonType": "off",
+      "noStaticElementInteractions": "off",
+      "useKeyWithClickEvents": "off",
+      "useFocusableInteractive": "off",
+      "useSemanticElements": "off"
+    },
+    "security": {
+      "noDangerouslySetInnerHtml": "off"
+    }
+  },
+  "domains": {
+    "next": "recommended",
+    "react": "recommended"
+  }
+}
